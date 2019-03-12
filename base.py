@@ -28,3 +28,6 @@ class Movies(db.Model):
     def delete_(self):
         db.session.delete(self)
         db.session.commit()
+        
+    
+
